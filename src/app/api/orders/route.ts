@@ -44,6 +44,10 @@ export async function POST(req: Request) {
     return Response.json({ error: "Choose at least one sweet." }, { status: 400 });
   }
 
+  if (!process.env.DATABASE_URL) {
+    return Response.json({ error: "Database is not connected. Please configure DATABASE_URL." }, { status: 503 });
+  }
+
   try {
     const [row] = await db
       .insert(orders)
