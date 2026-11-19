@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./assets/banner.jpg" alt="Madhuram Mithai 3D Cinematic Experience" width="100%" style="border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,0.4);" />
+
 
   <br />
   <br />
@@ -29,6 +29,8 @@
     <a href="#-local-setup--quickstart">💻 <strong>Quickstart</strong></a> •
     <a href="#-api-documentation">📡 <strong>API Reference</strong></a>
   </p>
+
+  <img src="./assets/banner.jpg" alt="Madhuram Mithai 3D Cinematic Experience" width="100%" style="border-radius: 12px; box-shadow: 0 12px 32px rgba(0,0,0,0.4);" />
 
 </div>
 
